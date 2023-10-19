@@ -22,5 +22,5 @@ input_file="$1"
 output_file="${input_file%.md}.pdf"
 
 # Convertit le fichier Markdown en PDF avec Pandoc et ouvre le pdf dans zathura
-pandoc "$input_file" -o "$output_file" && zathura "$output_file"
+pandoc "$input_file" -o "$output_file" && zathura "$output_file" &
 
