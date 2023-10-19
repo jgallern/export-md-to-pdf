@@ -6,7 +6,7 @@ terminal tool to export markdown file, export it to pdf and visualise it in zath
 cd /usr/bin 
 git clone https://github.com/jgallern/export-md-to-pdf.git
 mv export-md-to-pdf/export.sh export.sh
-rm -rf export-md-to-pdf
+sudo rm -rf export-md-to-pdf
 ```
 
 ## How to use it
