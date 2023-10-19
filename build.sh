@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Vérifie si Pandoc est installé
 if !command -v pandoc &> /dev/null; then
