@@ -4,8 +4,8 @@ terminal tool to export markdown file, export it to pdf and visualise it in zath
 ## Instalation
 ```bash
 cd /usr/bin 
-git clone https://github.com/jgallern/export-md-to-pdf.git
-mv export-md-to-pdf/export.sh export.sh
+sudo git clone https://github.com/jgallern/export-md-to-pdf.git
+sudo mv export-md-to-pdf/export.sh export.sh
 sudo rm -rf export-md-to-pdf
 ```
 
