@@ -18,6 +18,6 @@ and a nameoffile.pdf file will be create and open in zathura
 
 ## Dependencies
 
-[pandoc](https://github.com/jgm/pandoc)
-[zathura](https://github.com/pwmt/zathura)
+[pandoc](https://github.com/jgm/pandoc) \
+[zathura](https://github.com/pwmt/zathura) \
 [Texlive](https://tug.org/texlive)
