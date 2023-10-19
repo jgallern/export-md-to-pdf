@@ -3,10 +3,10 @@ terminal tool to export markdown file, export it to pdf and visualise it in zath
 
 ## Instalation
 ```bash
-cd /usr/bin 
-sudo git clone https://github.com/jgallern/export-md-to-pdf.git
-sudo mv export-md-to-pdf/export.sh export.sh
-sudo rm -rf export-md-to-pdf
+cd /tmp
+git clone https://github.com/jgallern/export-md-to-pdf.git
+chmod +x build.sh
+./build.sh
 ```
 
 ## How to use it
