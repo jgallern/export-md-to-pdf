@@ -18,6 +18,7 @@ and a nameoffile.pdf file will be create and open in zathura
 
 ## Dependencies
 
-[pandoc](https://github.com/jgm/pandoc) \
-[zathura](https://github.com/pwmt/zathura) \
-[Texlive](https://tug.org/texlive)
+* [pandoc](https://github.com/jgm/pandoc)
+* [Texlive](https://tug.org/texlive) to convert from ".md" to ".pdf" \
+* [zathura](https://github.com/pwmt/zathura) to open pdf files\
+
