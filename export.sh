@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Vérifier si Pandoc est installé
+# Vérifie si Pandoc est installé
 if ! command -v pandoc &> /dev/null; then
-    echo "Pandoc n'est pas installé. Veuillez l'installer avant d'exécuter ce script."
+    echo "Pandoc is not installed yet. Please install it before running this script"
     exit 1
 fi
 
 # Vérifier si Zathura est installé
 if ! command -v zathura &> /dev/null; then
-    echo "Zathura n'est pas installé. Veuillez l'installer avant d'exécuter ce script."
+    echo "Zathura is not installed yet. Please install it before running this script"
     exit 1
 fi
 
