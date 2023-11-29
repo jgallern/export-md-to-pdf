@@ -17,7 +17,7 @@ export.sh nameoffile.md
 and a nameoffile.pdf file will be create and open in zathura
 
 ## Yaml to put at the beginning of your markdown file
-
+```markdown
 ---
 title: "Title"
 subtitle: "Subtitle"
@@ -29,6 +29,7 @@ geometry: margin=3cm
 output: pdf_document
 code-block-font-size: \normalsize
 ---
+```
 
 ## Dependencies
 
