@@ -39,3 +39,18 @@ code-block-font-size: \normalsize
 * [eisvogel](https://github.com/enhuiz/eisvogel/tree/master) to have a nice template
 * [mermaid-filter](https://github.com/raghur/mermaid-filter) to integrate mermaid diagrams
 
+## Common errors
+
+if you got the error
+
+``` sh
+! LaTeX Error: File `footnotebackref.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name:
+! Emergency stop.
+<read *>
+```
+you don't have all the required latex package, take a look at [this page](https://github.com/enhuiz/eisvogel/tree/master#required-latex-packages)
