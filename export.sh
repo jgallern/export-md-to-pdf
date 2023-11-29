@@ -22,7 +22,13 @@ input_file="$1"
 output_file="${input_file%.md}.pdf"
 
 # Convertit le fichier Markdown en PDF avec Pandoc et ouvre le pdf dans zathura
-pandoc "$input_file" -o "$output_file" --toc -V toc-title="Table des matières" && zathura "$output_file" &
-
-
-
+pandoc "$input_file" \
+-o "$output_file" \
+--toc -V lang=fr \
+-F mermaid-filter \
+--template eisvogel \
+--highlight-style tango \
+--listings \
+--number-sections \
+--variable colorlinks=true \
+&& zathura "$output_file" &
