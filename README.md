@@ -33,8 +33,8 @@ code-block-font-size: \normalsize
 
 ## Dependencies
 
-* [pandoc](https://github.com/jgm/pandoc)
-* [Texlive](https://tug.org/texlive) to convert from ".md" to ".pdf" 
+* [pandoc](https://github.com/jgm/pandoc) to convert from ".md" to ".pdf" 
+* [Texlive](https://tug.org/texlive) : latex environnement
 * [zathura](https://github.com/pwmt/zathura) to open pdf files
 * [eisvogel](https://github.com/enhuiz/eisvogel/tree/master) to have a nice template
 * [mermaid-filter](https://github.com/raghur/mermaid-filter) to integrate mermaid diagrams
