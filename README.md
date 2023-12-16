@@ -1,5 +1,5 @@
 # export-md-to-pdf
-terminal tool to export markdown file, export it to pdf and visualise it in zathura
+terminal tool to export markdown file, export it to pdf and visualise it in your favorite pdf reader.
 
 ## Instalation
 ```bash
@@ -14,7 +14,7 @@ chmod +x build.sh
 ```bash
 export.sh nameoffile.md
 ```
-and a nameoffile.pdf file will be create and open in zathura
+and a nameoffile.pdf file will be create and open in your pdf reader.
 
 ## Yaml to put at the beginning of your markdown file
 ```markdown
