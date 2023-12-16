@@ -28,6 +28,8 @@ titlepage: true
 geometry: margin=3cm
 output: pdf_document
 code-block-font-size: \normalsize
+titlepage-background: "path-to-image"
+
 ---
 ```
 
