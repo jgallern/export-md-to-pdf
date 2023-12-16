@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pdfreader=firefox
+
 # Vérifie si Pandoc est installé
 if ! command -v pandoc &> /dev/null; then
     echo "Pandoc is not installed yet. Please install it before running this script"
@@ -7,7 +9,7 @@ if ! command -v pandoc &> /dev/null; then
 fi
 
 # Vérifie si Zathura est installé
-if ! command -v zathura &> /dev/null; then
+if ! command -v $pdfreader &> /dev/null; then
     echo "Zathura is not installed yet. Please install it before running this script"
     exit 1
 fi
@@ -21,7 +23,7 @@ fi
 input_file="$1"
 output_file="${input_file%.md}.pdf"
 
-# Convertit le fichier Markdown en PDF avec Pandoc et ouvre le pdf dans zathura
+# Convertit le fichier Markdown en PDF avec Pandoc et ouvre le pdf dans $pdfreader
 pandoc "$input_file" \
 -o "$output_file" \
 --toc -V lang=fr \
@@ -31,4 +33,4 @@ pandoc "$input_file" \
 --listings \
 --number-sections \
 --variable colorlinks=true \
-&& zathura "$output_file" &
+&& $pdfreader "$output_file" &
