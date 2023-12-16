@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pdfreader=firefox
+pdfreader=zathura
 
 # Vérifie si Pandoc est installé
 if ! command -v pandoc &> /dev/null; then
@@ -8,9 +8,9 @@ if ! command -v pandoc &> /dev/null; then
     exit 1
 fi
 
-# Vérifie si Zathura est installé
+# Vérifie si le pdfreader est installé
 if ! command -v $pdfreader &> /dev/null; then
-    echo "Zathura is not installed yet. Please install it before running this script"
+    echo "your pdf reader is not installed yet. Please install it before running this script"
     exit 1
 fi
 
