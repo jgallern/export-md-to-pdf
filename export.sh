@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pdfreader=zathura
+pdfreader=firefox
 
 # Vérifie si Pandoc est installé
 if ! command -v pandoc &> /dev/null; then
@@ -27,7 +27,7 @@ output_file="${input_file%.md}.pdf"
 pandoc "$input_file" \
 -o "$output_file" \
 --toc -V lang=fr \
--F mermaid-filter \
+#-F mermaid-filter \
 --template eisvogel \
 --highlight-style tango \
 --listings \
