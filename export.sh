@@ -28,7 +28,7 @@ pandoc "$input_file" \
 -o "$output_file" \
 --toc -V lang=fr \
 #-F mermaid-filter \
---template eisvogel \
+--template=eisvogel \
 --highlight-style tango \
 --listings \
 --number-sections \
